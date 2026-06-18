@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+    background: #2d3436;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+select,
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    background: #4e73df;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+
+#maze {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    border: 1px solid #444;
+}
+
+.wall {
+    background: #111;
+}
+
+.path {
+    background: #dfe6e9;
+}
+
+.start {
+    background: #00b894;
+}
+
+.end {
+    background: #d63031;
+}
+
+.visited {
+    background: #74b9ff;
+}
+
+.shortest {
+    background: #ffeaa7;
+}
+
+#status {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
